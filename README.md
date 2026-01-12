@@ -2,6 +2,9 @@
 
 A FastAPI-based AI backend that generates Instagram-style captions for small businesses using prompt engineering and LangChain Runnable pipelines.
 
+# Architecture
+FastAPI handles HTTP requests, LangChain manages prompt execution, and OpenAI generates the content.
+
 ## Features
 - FastAPI REST API
 - LangChain Runnable chains
